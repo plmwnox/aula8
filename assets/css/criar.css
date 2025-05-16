@@ -1,0 +1,12 @@
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: auto;
+    gap: 10px;
+    padding: 20px;
+}
+fieldset button{
+    width: 50%;
+    margin: auto;
+}
