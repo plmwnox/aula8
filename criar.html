@@ -9,26 +9,63 @@
 <body>
     <form action="https://www.nasa.gov/">
         <fieldset>
-            <legend>Personagem</legend>
-            <label for="Nome">Nome</label>
-            <input type="text" name="" id="Nome" placeholder="Digite seu Nick">
-            <label for="">Classe</label>
-            <select name="" id="">
-                <option value="">Mago</option>
-                <option value="">Cavaleiro</option>
-                <option value="">Sniper</option>
-                <option value="">Aventureiro</option>
-                <option value="">CIentista</option>
-            </select>
-            <select name="" id="">
-                <option value="">Selecione Personagem</option>
-                <option value="">Xenomorfo</option>
-                <option value="">Metamorfo</option>
-                <option value="">Predador</option>
-                <option value="">Peixonalta</option>
+            <!DOCTYPE html>
+            <html>
+            <head>
+              <title>Folha de Personagem</title>
+              <style>
 
-            </select>
-            <textarea name="" id="" cols="30" rows="20" placeholder="Descreva seu Personagem"></textarea>
+              </style>
+            </head>
+            <body>
+              <div class="section">
+                <label class="label">Nome do Personagem:</label>
+                <input type="text" name="nome" value="Exemplo">
+              </div>
+              <div class="section">
+                <label class="label">Classe:</label>
+                <select name="classe">
+                  <option value="Guerreiro">Guerreiro</option>
+                  <option value="Mago">Mago</option>
+                  <option value="Arqueiro">Arqueiro</option>
+                </select>
+              </div>
+              <div class="section">
+                <label class="label">Nível:</label>
+                <input type="number" name="nivel" value="1">
+                <label class="label">Raça:</label>
+                <input type="text" name="raca" value="Humano">
+              </div>
+              <div class="section">
+                <label class="label">Atributos Principais:</label>
+                <p>Força: <input type="number" name="forca" value="10"></p>
+                <p>Destreza: <input type="number" name="destreza" value="10"></p>
+                <p>Constituição: <input type="number" name="constituicao" value="10"></p>
+                <p>Inteligência: <input type="number" name="inteligencia" value="10"></p>
+                <p>Sabedoria: <input type="number" name="sabedoria" value="10"></p>
+                <p>Carisma: <input type="number" name="carisma" value="10"></p>
+              </div>
+              <div class="section">
+                <label class="label">Habilidades:</label>
+                <p>Ataque com Arma: <input type="number" name="ataque_arma" value="0"></p>
+                <p>Defesa: <input type="number" name="defesa" value="0"></p>
+              </div>
+              <div class="section">
+                <label class="label">Itens:</label>
+                <textarea name="itens" rows="3"></textarea>
+              </div>
+              <div class="section">
+                <label class="label">Saúde:</label>
+                <input type="number" name="saude" value="100">
+                <label class="label">Mana:</label>
+                <input type="number" name="mana" value="50">
+              </div>
+              <div class="section">
+                <label class="label">Notas:</label>
+                <textarea name="notas" rows="5"></textarea>
+              </div>
+            </body>
+            </html>
             <hr>
             <button type="reset">Limpar</button>
             <button type="submit">Criar</button>

@@ -10,3 +10,26 @@ fieldset button{
     width: 50%;
     margin: auto;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://usagif.com/wp-content/uploads/gif/outerspace-41.gif);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+body { font-family: sans-serif; }
+.section { margin-bottom: 20px; }
+.label { font-weight: bold; }
+button{
+    margin: auto;
+    font-size: 20px;
+}
+input{
+    font-size: 15px;
+}
+select{
+    font-size: 20px;
+}
